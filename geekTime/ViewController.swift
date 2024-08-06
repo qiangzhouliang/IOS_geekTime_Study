@@ -23,6 +23,7 @@ class ViewController: UITabBarController {
         let navigationHomeVC = UINavigationController(rootViewController: homeVC)
         self.addChild(navigationHomeVC)
         
+        
         let mineVC = MineViewController()
         mineVC.tabBarItem.image = R.image.mine()
         mineVC.tabBarItem.selectedImage = R.image.mine_selected()?.withRenderingMode(.alwaysOriginal)
